@@ -1,7 +1,7 @@
 html, body {
      display: block;
      margin: 0;
-     background-image: url(1-1.png);
+     background-image: url(ghz.png);
      background-size: cover;
      background-color: white;
      background-repeat: no-repeat;
@@ -79,4 +79,40 @@ ul {
 
  #header li:hover{
      background-color: #4280d7;
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    text-shadow: 5px 5px black;
+    position: relative;
+    z-index: 5;
+    
+}
+
+
+
+.SVS{
+    color: brown;
+    background: cornsilk;
+    border: 1px solid burlywood;
+}
+
+.CVB{
+    color: brown;
+    background: cornsilk;
+    border: 1px solid burlywood;
+}
+
+.FVG{
+    color: brown;
+    background: cornsilk;
+    border: 1px solid burlywood;
+}
+
+.GVR{
+    color: brown;
+    background: cornsilk;
+    border: 1px solid burlywood;
 }
