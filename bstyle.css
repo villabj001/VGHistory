@@ -1,0 +1,117 @@
+html, body {
+     display: block;
+     margin: 0;
+     
+     background-size: cover;
+     background-color: white;
+     background-repeat: no-repeat;
+     padding: 0;
+     color: #575e75;
+     font-family:  pixelfont;
+}
+
+@font-face {
+  font-family: pixelfont;
+  src: url(slkscrb.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: mario64;
+    src: url(Mario64.ttf) format('truetype');
+}
+ #header {
+     position: relative;
+     top: 0;
+     left: 0;
+     background-color: #2a2a2a;
+     width: 100%;
+     height: 55px;
+     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+     z-index : 1;
+}
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/*header*/
+
+#header a{
+     color: inherit;
+     text-decoration: inherit;
+     display: inline-block;
+     position: relative;
+  
+     padding: 32px;
+     margin: -32px;
+}
+
+ .VGH {
+     position: relative;
+     top: 10px;
+     left: 450px;
+     color: #4d97ff;
+}
+ .VGH#hover {
+     position: relative;
+}
+ #header .VGH img:hover {
+     transform: scale(1.1);
+}
+ #header li{
+     color: white;
+     font-size: 13.6px;
+     font-weight: bold;
+     padding: 19px;
+     position: relative;
+     display: inline-block;
+     left: 750px;
+
+
+}
+
+
+ #header li:hover{
+     background-color: #4280d7;
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    color: mediumpurple;
+    text-shadow: 5px 5px lightgray;
+    position: relative;
+    z-index: 5;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+
+}
+
+table {
+
+    margin-left:auto; 
+    margin-right:auto;
+    width: 1500px;
+    height: 100%px;
+    border-collapse: seperate;
+    border-spacing: 0 50px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    table-layout: auto;
+
+}
+
+tr td {
+    font-size:  20px;
+}
