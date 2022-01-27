@@ -1,3 +1,7 @@
+/*Jason Villablanca*/
+/*VGH bstyle.css*/
+/*January 26, 2021*/
+/*TEJ20*/
 html, body {
      display: block;
      margin: 0;
@@ -20,14 +24,14 @@ html, body {
     src: url(Mario64.ttf) format('truetype');
 }
  #header {
-     position: fixed;
+     position: relative;
      top: 0;
      left: 0;
      background-color: #2a2a2a;
      width: 100%;
      height: 55px;
      box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
-     z-index : 9999;
+     z-index : 1;
 }
 }
 
@@ -97,6 +101,8 @@ h1{
 
 
 }
+
+/*Table CSS*/
 
 table {
 
